@@ -1,0 +1,128 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  width: auto;
+  border: 1px solid red;
+position: relative;
+justify-content:flex-end;
+}
+#menu {
+background: red ;
+width: 100%;
+font-family: Arial;
+
+
+}
+#menu ul {
+margin: 0px;
+padding: 0px;
+display: flex;
+align-items: center;
+
+
+}
+#menu a:active {
+color: white;
+background: black
+}
+
+#menu li {
+list-style-type: none;
+display: inline-block;
+border-width: 2px;
+border-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+#welcome{
+	display: flex;
+	width: 100%;
+	height:300px;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+}
+h1{
+	color:white;
+}
+#color {
+	position: relative;
+	width: 100%;
+	height:300px;
+  background-image: linear-gradient(#191970, #4169E1);
+}
+#one, #two, #three, #four, #five, #six{
+	background: #191970;
+	width:400px;
+	height:300px;
+}
+#projects{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	align-content:space-between;
+}
+#projects2{
+	display:flex;
+	justify-content:space-between;
+
+	align-content:space-between;
+}
+.pro {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.pro > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.chto{
+	display: flex;
+	justify-content:center;
+	align-items:flex-end;
+}
+.two{
+	 display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.two > div {
+	background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+}
+h2{
+	color:black;
+}
